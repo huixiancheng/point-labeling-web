@@ -1,6 +1,6 @@
 # Demo assets
 
-`usage_demo.mp4` 是完整原始高清界面演示视频，约 118.6 MB，使用 Git LFS 进入私有源码仓库。`usage_demo.gif` 是覆盖完整视频时长的 README 自动预览版本。推荐使用 H.264 MP4。
+`usage_demo.mp4` 是完整原始高清界面演示视频，约 118.6 MB，使用 Git LFS 进入本仓库。`usage_demo.gif` 是覆盖完整视频时长的 README 自动预览版本。推荐使用 H.264 MP4。
 
 本地预览：
 

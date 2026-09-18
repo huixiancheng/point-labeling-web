@@ -8,7 +8,7 @@
 
 ## 演示 / Demo
 
-下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频文件通过 Git LFS 保存在私有仓库中：
+下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频文件通过 Git LFS 保存在本仓库中：
 
 <p align="center">
   <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">
@@ -18,7 +18,7 @@
 
 [▶ 下载 / 播放完整原始演示视频（MP4，约 118.6 MB）](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-完整 GIF 会在 GitHub README 中自动播放并按 960 px 宽度展示；点击 GIF 或上面的链接即可由浏览器直接播放或下载完整原始 MP4。Windows 二进制包待发布到 [GitHub Releases](https://github.com/huixiancheng/point-labeling-web/releases)，源码构建方式见下方“构建和测试”。详情见 [`assets/README.md`](assets/README.md)。
+完整 GIF 会在 GitHub README 中自动播放并按 960 px 宽度展示；点击 GIF 或上面的链接即可由浏览器直接播放或下载完整原始 MP4。Windows 二进制包已发布到 [GitHub Releases v0.1.1](https://github.com/huixiancheng/point-labeling-web/releases/tag/v0.1.1)，也可直接[下载 Windows 发布包](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。源码构建方式见下方“构建和测试”。详情见 [`assets/README.md`](assets/README.md)。
 
 ## 可直接测试 / 20-frame test data
 
@@ -186,7 +186,7 @@ clips/
 
 源码仓库只保留可维护的开发内容：`frontend/src`、`server/src`、`windows` 启动器源码、构建脚本、测试脚本和文档。前端 `dist`、CMake/Visual Studio 构建目录、Qt 运行库以及完整 Windows 包均属于生成结果，不应提交到源码历史。
 
-Windows 构建结果建议打成一个压缩包，作为 GitHub Release asset 上传，例如 `PointLabelingWebOpen-Windows-<date>.zip`。`usage_demo.mp4` 已通过 Git LFS 纳入私有源码仓库，不再依赖 Release 上传。`windows/package_open` 是本地的 SemanticKITTI 300 帧测试夹具，已排除在源码提交之外；`assets/SemanticKITTI-00-20frames.zip` 是专门保留给别人快速测试的公开 20 帧数据资产。
+Windows 构建结果建议打成一个压缩包，作为 GitHub Release asset 上传，例如 `PointLabelingWebOpen-Windows-<date>.zip`；当前 `v0.1.1` 发布包可从 [GitHub Release](https://github.com/huixiancheng/point-labeling-web/releases/tag/v0.1.1) 下载。`usage_demo.mp4` 已通过 Git LFS 纳入本仓库，不再依赖 Release 上传。`windows/package_open` 是本地的 SemanticKITTI 300 帧测试夹具，已排除在源码提交之外；`assets/SemanticKITTI-00-20frames.zip` 是专门保留给别人快速测试的公开 20 帧数据资产。
 
 发布包中的 `PointLabelerLauncher.exe` 由 `windows/launcher/PointLabelerLauncher.cs` 编译得到。发布包只提供 EXE 作为服务入口：启动器直接控制服务进程并执行 app 更新，避免多个脚本入口造成重复服务。
 

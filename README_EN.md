@@ -8,7 +8,7 @@ An open-format web annotator for semantic point clouds. The current baseline is 
 
 ## Demo
 
-The video demonstrates point-cloud browsing, tool switching, and label editing on the public-format test package. It is stored in the private repository through Git LFS:
+The video demonstrates point-cloud browsing, tool switching, and label editing on the public-format test package. It is stored in this repository through Git LFS:
 
 <p align="center">
   <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">
@@ -18,7 +18,7 @@ The video demonstrates point-cloud browsing, tool switching, and label editing o
 
 [▶ Download / play the complete original demo video (MP4, about 118.6 MB)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-The complete GIF autoplays in the GitHub README and is displayed at 960 px wide; click it or use the link above to play or download the original full MP4 in the browser. The Windows binary package is pending publication on [GitHub Releases](https://github.com/huixiancheng/point-labeling-web/releases); see the build section below for source builds. See [`assets/README.md`](assets/README.md) for the asset policy.
+The complete GIF autoplays in the GitHub README and is displayed at 960 px wide; click it or use the link above to play or download the original full MP4 in the browser. The Windows binary package is published in [GitHub Releases v0.1.1](https://github.com/huixiancheng/point-labeling-web/releases/tag/v0.1.1); you can also [download the Windows package directly](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip). See the build section below for source builds and [`assets/README.md`](assets/README.md) for the asset policy.
 
 ## Direct test data / 20 frames
 
@@ -171,7 +171,7 @@ Frontend production builds require Node.js `>=20.19.0`, npm, or pnpm. Windows pa
 
 Keep `-OutputDir` separate from any work package containing real `clips` or `logs`. To update an existing package, put the new `app` under `update\app` and optionally put a new `PointLabelerLauncher.exe` under `update`; then choose **Update** in the launcher. `clips` and `logs` are not overwritten.
 
-The source repository keeps maintainable source, tests, scripts, and documentation. Frontend `dist`, `node_modules`, build directories, Qt runtime files, the 300-frame local fixture, logs, and complete Windows packages are generated or local data and are excluded from source history. The small 20-frame SemanticKITTI test archive is an explicit public test asset; upload the generated Windows ZIP as a GitHub Release asset when publishing a release. `usage_demo.mp4` is already included in the private source repository through Git LFS.
+The source repository keeps maintainable source, tests, scripts, and documentation. Frontend `dist`, `node_modules`, build directories, Qt runtime files, the 300-frame local fixture, logs, and complete Windows packages are generated or local data and are excluded from source history. The small 20-frame SemanticKITTI test archive is an explicit public test asset; upload the generated Windows ZIP as a GitHub Release asset when publishing a release. The current `v0.1.1` Windows package is already published in [GitHub Releases](https://github.com/huixiancheng/point-labeling-web/releases/tag/v0.1.1), and `usage_demo.mp4` is included in this repository through Git LFS.
 
 ## Acknowledgments
 

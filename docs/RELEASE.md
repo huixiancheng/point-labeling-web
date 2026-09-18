@@ -64,9 +64,9 @@ PointLabelingWebOpen-Windows-<date>/
 
 当前资产组织如下：
 
-- `PointLabelingWebOpen-Windows-<date>.zip`：完整 Windows 包，待上传到 GitHub Release。
+- `PointLabelingWebOpen-Windows-<date>.zip`：完整 Windows 包，作为 GitHub Release asset 发布；当前 `v0.1.1` 发布包见 [GitHub Release](https://github.com/huixiancheng/point-labeling-web/releases/tag/v0.1.1)。
 - `assets/usage_demo.gif`：完整时长的 README 自动预览，直接随源码仓库提交。
-- `assets/usage_demo.mp4`：原始完整演示视频，使用 Git LFS 随私有源码仓库提交；README 通过 raw 地址提供播放/下载，不再依赖 `<source>` 或 Release 资产。
+- `assets/usage_demo.mp4`：原始完整演示视频，使用 Git LFS 随源码仓库提交；README 通过 raw 地址提供播放/下载，不再依赖 `<source>` 或 Release 资产。
 - `assets/SemanticKITTI-00-20frames.zip`：直接提交到仓库的公开 20 帧测试资产。
 
 Release 描述中应写明：代码采用 MIT；测试数据和 SemanticKITTI/KITTI 数据采用各自条款；Windows 包只包含公开格式测试入口，不包含私有数据。
