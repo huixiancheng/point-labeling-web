@@ -8,14 +8,11 @@
 
 ## 演示 / Demo
 
-下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频位于 `assets/usage_demo.mp4`，正式发布时作为 Release asset 提供；如果当前页面不能内嵌播放，可以直接下载该文件。
+下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频文件通过 Git LFS 保存在私有仓库中：
 
-<video controls muted loop playsinline preload="metadata" width="960">
-  <source src="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4" type="video/mp4" />
-  <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">下载演示视频 / Download demo video</a>
-</video>
+[▶ 在浏览器中打开 / 播放演示视频（MP4）](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-演示视频通过 Git LFS 保存在私有仓库中，H.264 兼容性最好。完整 Windows 运行包见：[PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。详情见 [`assets/README.md`](assets/README.md)。
+GitHub 仓库首页不会稳定渲染来自 Git LFS 的 MP4 内嵌播放器，点击上面的链接即可由浏览器直接播放或下载。完整 Windows 运行包见：[PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。详情见 [`assets/README.md`](assets/README.md)。
 
 ## 可直接测试 / 20-frame test data
 
@@ -182,7 +179,7 @@ clips/
 
 源码仓库只保留可维护的开发内容：`frontend/src`、`server/src`、`windows` 启动器源码、构建脚本、测试脚本和文档。前端 `dist`、CMake/Visual Studio 构建目录、Qt 运行库以及完整 Windows 包均属于生成结果，不应提交到源码历史。
 
-Windows 构建结果建议打成一个压缩包，作为 GitHub Release asset 上传，例如 `PointLabelingWebOpen-Windows-<date>.zip`；`usage_demo.mp4` 也作为 Release asset 上传。`windows/package_open` 是本地的 SemanticKITTI 300 帧测试夹具，已排除在源码提交之外；`assets/SemanticKITTI-00-20frames.zip` 是专门保留给别人快速测试的公开 20 帧数据资产。
+Windows 构建结果建议打成一个压缩包，作为 GitHub Release asset 上传，例如 `PointLabelingWebOpen-Windows-<date>.zip`。`usage_demo.mp4` 已通过 Git LFS 纳入私有源码仓库，不再依赖 Release 上传。`windows/package_open` 是本地的 SemanticKITTI 300 帧测试夹具，已排除在源码提交之外；`assets/SemanticKITTI-00-20frames.zip` 是专门保留给别人快速测试的公开 20 帧数据资产。
 
 发布包中的 `PointLabelerLauncher.exe` 由 `windows/launcher/PointLabelerLauncher.cs` 编译得到。发布包只提供 EXE 作为服务入口：启动器直接控制服务进程并执行 app 更新，避免多个脚本入口造成重复服务。
 
