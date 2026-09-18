@@ -17,9 +17,6 @@ windows/package_open/
 windows/release_open/
 windows/*.zip
 
-# Large demo media is published as a Release asset, not as source history
-assets/*.mp4
-
 # Runtime output
 **/logs/
 *.log

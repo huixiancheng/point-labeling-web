@@ -11,11 +11,11 @@ An open-format web annotator for semantic point clouds. The current baseline is 
 The video demonstrates point-cloud browsing, tool switching, and label editing on the public-format test package. It is stored locally as `assets/usage_demo.mp4` and is published as a separate GitHub Release asset because of its size.
 
 <video controls muted loop playsinline preload="metadata" width="960">
-  <source src="https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/usage_demo.mp4" type="video/mp4" />
-  <a href="https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/usage_demo.mp4">Download the demo video</a>
+  <source src="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4" type="video/mp4" />
+  <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">Download the demo video</a>
 </video>
 
-The demo video is published as a private Release asset, with H.264 for broad browser compatibility. The complete Windows package is available as [PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip). See [`assets/README.md`](assets/README.md) for the asset policy.
+The demo video is stored in the private repository through Git LFS, with H.264 for broad browser compatibility. The complete Windows package is available as [PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip). See [`assets/README.md`](assets/README.md) for the asset policy.
 
 ## Direct test data / 20 frames
 
