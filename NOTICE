@@ -1,0 +1,18 @@
+point-labeling-web
+Copyright (c) 2026 point-labeling-web contributors
+
+This project includes or links to third-party software and references whose
+licenses remain separate from this project's MIT License:
+
+- cpp-httplib: MIT License; see server/third_party/httplib.h.
+- JSON for Modern C++ (nlohmann/json): MIT License; see
+  server/third_party/nlohmann/json.hpp.
+- Three.js and its type definitions: MIT License; see the dependency package
+  metadata and frontend lockfiles.
+- jbehley/point_labeler and xtreme1-io/xtreme1 are acknowledged references;
+  see the "Acknowledgments" section in README.md and README_EN.md for project
+  links and their respective licenses.
+
+The detailed third-party, Qt, Microsoft runtime, and public-data notices are
+in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Windows package
+includes the applicable notice files at its root.

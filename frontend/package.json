@@ -1,0 +1,22 @@
+{
+  "name": "point-labeling-web-frontend",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6"
+  }
+}

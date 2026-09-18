@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!-- SemanticKITTI learning ids (learning_map), not the raw source ids. -->
+  <label><id>0</id><name>未标注</name><description>Unlabeled / ignored.</description><color>80 80 80</color><category>ignored</category></label>
+  <label><id>1</id><name>小汽车</name><description>Car.</description><color>245 150 100</color><category>vehicle</category></label>
+  <label><id>2</id><name>自行车</name><description>Bicycle.</description><color>245 230 100</color><category>vehicle</category></label>
+  <label><id>3</id><name>摩托车</name><description>Motorcycle.</description><color>255 150 0</color><category>vehicle</category></label>
+  <label><id>4</id><name>卡车</name><description>Truck.</description><color>255 0 0</color><category>vehicle</category></label>
+  <label><id>5</id><name>其他车辆</name><description>Other vehicle.</description><color>255 0 0</color><category>vehicle</category></label>
+  <label><id>6</id><name>行人</name><description>Person.</description><color>255 0 0</color><category>human</category></label>
+  <label><id>7</id><name>骑自行车的人</name><description>Bicyclist.</description><color>200 40 255</color><category>human</category></label>
+  <label><id>8</id><name>骑摩托车的人</name><description>Motorcyclist.</description><color>255 150 255</color><category>human</category></label>
+  <label><id>9</id><name>道路</name><description>Road.</description><color>0 0 255</color><category>ground</category></label>
+  <label><id>10</id><name>停车区</name><description>Parking.</description><color>100 100 255</color><category>ground</category></label>
+  <label><id>11</id><name>人行道</name><description>Sidewalk.</description><color>30 255 255</color><category>ground</category></label>
+  <label><id>12</id><name>其他地面</name><description>Other ground.</description><color>50 120 255</color><category>ground</category></label>
+  <label><id>13</id><name>建筑物</name><description>Building.</description><color>255 0 0</color><category>structure</category></label>
+  <label><id>14</id><name>围栏</name><description>Fence.</description><color>255 190 0</color><category>structure</category></label>
+  <label><id>15</id><name>植被</name><description>Vegetation.</description><color>0 255 0</color><category>nature</category></label>
+  <label><id>16</id><name>树干</name><description>Trunk.</description><color>150 240 0</color><category>nature</category></label>
+  <label><id>17</id><name>地形</name><description>Terrain.</description><color>0 255 0</color><category>ground</category></label>
+  <label><id>18</id><name>杆</name><description>Pole.</description><color>0 255 255</color><category>structure</category></label>
+  <label><id>19</id><name>交通标志</name><description>Traffic sign.</description><color>0 0 255</color><category>structure</category></label>
+  <label><id>255</id><name>未知 / 未标注</name><description>Missing point label.</description><color>130 135 145</color><category>unknown</category></label>
+</config>

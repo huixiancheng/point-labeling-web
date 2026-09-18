@@ -1,0 +1,41 @@
+# Dependencies and generated frontend output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-auto-build/
+
+# CMake and Visual Studio build output
+**/build/
+**/build_*/
+**/build_windows/
+**/build_open_windows/
+**/CMakeFiles/
+**/Testing/
+**/.vs/
+
+# Windows package output
+windows/package_open/
+windows/release_open/
+windows/*.zip
+
+# Large demo media is published as a Release asset, not as source history
+assets/*.mp4
+
+# Runtime output
+**/logs/
+*.log
+
+# Local datasets and annotations
+**/clips/*
+!**/clips/README.txt
+*.plwlabels
+
+# Editor and temporary files
+*.user
+*.suo
+*.tmp
+*~
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+**/.point_labeler_launcher_updater.exe
