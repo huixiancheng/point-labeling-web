@@ -10,11 +10,15 @@
 
 下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频文件通过 Git LFS 保存在私有仓库中：
 
-[![点云标注完整演示 GIF（点击打开完整 MP4）](assets/usage_demo.gif)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
+<p align="center">
+  <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">
+    <img src="assets/usage_demo.gif" alt="点云标注完整演示 GIF（点击打开完整 MP4）" width="960" />
+  </a>
+</p>
 
 [▶ 下载 / 播放完整原始演示视频（MP4，约 118.6 MB）](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-完整 GIF 会在 GitHub README 中自动播放；点击 GIF 或上面的链接即可由浏览器直接播放或下载完整原始 MP4。完整 Windows 运行包见：[PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。详情见 [`assets/README.md`](assets/README.md)。
+完整 GIF 会在 GitHub README 中自动播放并按 960 px 宽度展示；点击 GIF 或上面的链接即可由浏览器直接播放或下载完整原始 MP4。Windows 二进制包待发布到 [GitHub Releases](https://github.com/huixiancheng/point-labeling-web/releases)，源码构建方式见下方“构建和测试”。详情见 [`assets/README.md`](assets/README.md)。
 
 ## 可直接测试 / 20-frame test data
 
@@ -48,7 +52,8 @@ PointLabelingWebOpen-Windows-<date>/
 ├─ PointLabelerLauncher.exe      # 开启、停止、更新和退出
 ├─ app/                          # exe、web、assets、Qt/MSVC DLL
 ├─ clips/                        # 放公开点云数据
-└─ logs/                         # server.log 和前台调试日志
+├─ logs/                         # server.log 和前台调试日志
+└─ update/                       # 可选的新 app/启动器更新文件
 ```
 
 1. 将完整的 SemanticKITTI/KITTI 数据目录放到 `clips`。

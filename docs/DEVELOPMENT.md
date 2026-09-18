@@ -114,7 +114,7 @@ SemanticKITTI 300 帧夹具位于 `windows/package_open/clips/semantic_kitti/seq
 
 源码仓库不提交 `frontend/dist`、CMake/Visual Studio 构建目录、Qt DLL、完整 Windows 包或本地数据。`windows/package_open` 仅用于本机 SemanticKITTI 300 帧回归测试，已被 `.gitignore` 排除。
 
-构建时将 `-OutputDir` 指向独立的新目录；生成的完整目录压缩为 `PointLabelingWebOpen-Windows-<date>.zip`，与 `assets/usage_demo.mp4` 一起上传到目标 GitHub Release。若要通过包内更新替换启动器，将新的 `PointLabelerLauncher.exe` 放在 `update/PointLabelerLauncher.exe`；源码仓库只保留构建脚本和启动器源码，便于后续重新生成发布包。
+构建时将 `-OutputDir` 指向独立的新目录；生成的完整目录压缩为 `PointLabelingWebOpen-Windows-<date>.zip`，上传到目标 GitHub Release。`assets/usage_demo.gif` 随源码仓库提供 README 预览，`assets/usage_demo.mp4` 通过 Git LFS 随私有源码仓库提供，不再重复上传到 Release。若要通过包内更新替换启动器，将新的 `PointLabelerLauncher.exe` 放在 `update/PointLabelerLauncher.exe`；源码仓库只保留构建脚本和启动器源码，便于后续重新生成发布包。
 
 ## 6. 姿态和坐标
 

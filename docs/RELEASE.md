@@ -62,11 +62,12 @@ PointLabelingWebOpen-Windows-<date>/
 
 ## 4. GitHub Release 资产
 
-建议把大文件作为 Release asset 管理：
+当前资产组织如下：
 
-- `PointLabelingWebOpen-Windows-<date>.zip`：完整 Windows 包。
-- `usage_demo.mp4`：演示视频；上传后把 README `<source>` 替换为实际 GitHub 资源地址。
-- `SemanticKITTI-00-20frames.zip`：如果不提交到仓库，则作为单独的公开测试资产，并同步更新 README 下载链接。
+- `PointLabelingWebOpen-Windows-<date>.zip`：完整 Windows 包，待上传到 GitHub Release。
+- `assets/usage_demo.gif`：完整时长的 README 自动预览，直接随源码仓库提交。
+- `assets/usage_demo.mp4`：原始完整演示视频，使用 Git LFS 随私有源码仓库提交；README 通过 raw 地址提供播放/下载，不再依赖 `<source>` 或 Release 资产。
+- `assets/SemanticKITTI-00-20frames.zip`：直接提交到仓库的公开 20 帧测试资产。
 
 Release 描述中应写明：代码采用 MIT；测试数据和 SemanticKITTI/KITTI 数据采用各自条款；Windows 包只包含公开格式测试入口，不包含私有数据。
 
@@ -75,5 +76,5 @@ Release 描述中应写明：代码采用 MIT；测试数据和 SemanticKITTI/KI
 - [ ] 从 GitHub Release 页面下载 ZIP，而不是从开发机目录直接复制。
 - [ ] 在一台没有开发环境的 Windows 机器上解压并双击启动器。
 - [ ] 用 README 提供的 20 帧数据完成一次从启动到导出的完整流程。
-- [ ] 确认 README 中的视频播放器、下载链接、Release 链接和中英文切换入口可用。
+- [ ] 确认 README 中的完整 GIF、MP4 下载链接、Release 链接和中英文切换入口可用。
 - [ ] 保存发布包 SHA-256，后续更新只替换 `app` 或启动器，不覆盖用户的 `clips` 和 `logs`。

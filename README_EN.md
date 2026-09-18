@@ -10,11 +10,15 @@ An open-format web annotator for semantic point clouds. The current baseline is 
 
 The video demonstrates point-cloud browsing, tool switching, and label editing on the public-format test package. It is stored in the private repository through Git LFS:
 
-[![Full point-cloud annotation demo GIF (click for the full MP4)](assets/usage_demo.gif)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
+<p align="center">
+  <a href="https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4">
+    <img src="assets/usage_demo.gif" alt="Full point-cloud annotation demo GIF (click for the full MP4)" width="960" />
+  </a>
+</p>
 
 [▶ Download / play the complete original demo video (MP4, about 118.6 MB)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-The complete GIF autoplays in the GitHub README; click it or use the link above to play or download the original full MP4 in the browser. The complete Windows package is available as [PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip). See [`assets/README.md`](assets/README.md) for the asset policy.
+The complete GIF autoplays in the GitHub README and is displayed at 960 px wide; click it or use the link above to play or download the original full MP4 in the browser. The Windows binary package is pending publication on [GitHub Releases](https://github.com/huixiancheng/point-labeling-web/releases); see the build section below for source builds. See [`assets/README.md`](assets/README.md) for the asset policy.
 
 ## Direct test data / 20 frames
 
@@ -48,7 +52,8 @@ PointLabelingWebOpen-Windows-<date>/
 ├─ PointLabelerLauncher.exe
 ├─ app/                 # server executable, web assets, Qt/MSVC runtime files
 ├─ clips/               # put public point-cloud data here
-└─ logs/                # server and foreground diagnostic logs
+├─ logs/                # server and foreground diagnostic logs
+└─ update/              # optional app/launcher update files
 ```
 
 1. Put a complete SemanticKITTI or KITTI directory under `clips`.
