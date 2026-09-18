@@ -10,11 +10,11 @@
 
 下面的视频展示了公开格式测试包中的点云浏览、工具切换和标签编辑流程。视频文件通过 Git LFS 保存在私有仓库中：
 
-[![点云标注演示（点击 GIF 打开完整 MP4）](assets/usage_demo.gif)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo_web.mp4)
+[![点云标注完整演示 GIF（点击打开完整 MP4）](assets/usage_demo.gif)](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-[▶ 在浏览器中打开 / 播放完整演示视频（压缩 MP4，约 63.8 MB）](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo_web.mp4)
+[▶ 下载 / 播放完整原始演示视频（MP4，约 118.6 MB）](https://github.com/huixiancheng/point-labeling-web/raw/refs/heads/main/assets/usage_demo.mp4)
 
-GIF 会在 GitHub README 中自动播放；点击 GIF 或上面的链接即可由浏览器直接播放或下载压缩 MP4。原始高清 MP4 仍保存在 `assets/usage_demo.mp4`。完整 Windows 运行包见：[PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。详情见 [`assets/README.md`](assets/README.md)。
+完整 GIF 会在 GitHub README 中自动播放；点击 GIF 或上面的链接即可由浏览器直接播放或下载完整原始 MP4。完整 Windows 运行包见：[PointLabelingWeb-Windows-v0.1.1.zip](https://github.com/huixiancheng/point-labeling-web/releases/download/v0.1.1/PointLabelingWeb-Windows-v0.1.1.zip)。详情见 [`assets/README.md`](assets/README.md)。
 
 ## 可直接测试 / 20-frame test data
 
